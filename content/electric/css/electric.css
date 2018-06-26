@@ -43,10 +43,10 @@ body, ul.timeline_items, .icon_box a .desc, .icon_box a:hover .desc, .feature_li
 /* Links color */
 
 a {
-	color: #005df6;
+	color: darkorange;
 }
 a:hover {
-	color: #004dcb;
+	color: darkgrey;
 }
 
 /* Selections */
@@ -176,10 +176,10 @@ a.mfn-link-6:before {
 	color: #8f9090;
 }
 #Top_bar .menu>li.current-menu-item>a, #Top_bar .menu>li.current_page_item>a, #Top_bar .menu>li.current-menu-ancestor>a, #Top_bar .menu>li.current_page_ancestor>a, #Top_bar .menu>li.hover>a {
-	color: #5490f4;
+	color: darkorange;
 }
 #Top_bar .menu>li a:after {
-	background: #5490f4;
+	background: darkorange;
 }
 .menu-highlight #Top_bar #menu>ul>li.current-menu-item>a, .menu-highlight #Top_bar #menu>ul>li.current_page_item>a, .menu-highlight #Top_bar #menu>ul>li.current-menu-ancestor>a, .menu-highlight #Top_bar #menu>ul>li.current_page_ancestor>a, .menu-highlight #Top_bar #menu>ul>li.hover>a {
 	background: #5490f4;
@@ -544,7 +544,7 @@ body:not(.template-slider) #Header_wrapper {
 	background-image: none
 }
 #Top_bar {
-	background-color: rgba(0, 0, 0, .7) !important
+	background-color: rgba(71, 70, 70, 0.7) !important;
 }
 body.minimalist-header.header-fixed:not(.template-slider) #Header {
 	min-height: 0px
