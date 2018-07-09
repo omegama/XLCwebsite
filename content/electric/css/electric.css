@@ -98,7 +98,7 @@ a.button, a.tp-button {
 	color: #747474;
 }
 a.button_theme, a.tp-button.button_theme, button, input[type="submit"], input[type="reset"], input[type="button"] {
-	background-color: #005df6;
+	background-color:darkorange;
 	color: #fff;
 }
 
