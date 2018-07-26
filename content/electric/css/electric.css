@@ -52,10 +52,10 @@ a:hover {
 /* Selections */
 
 *::-moz-selection {
-	background-color: #005df6;
+	background-color: orange;
 }
 *::selection {
-	background-color: #005df6;
+	background-color: orange;
 }
 
 /* Grey */
@@ -67,22 +67,22 @@ a:hover {
 /* Headings font */
 
 h1, h1 a, h1 a:hover, .text-logo #logo {
-	color: #093a8b;
+	color: darkorange;
 }
 h2, h2 a, h2 a:hover {
-	color: #093a8b;
+	color: darkorange;
 }
 h3, h3 a, h3 a:hover {
-	color: #093a8b;
+	color: darkorange;
 }
 h4, h4 a, h4 a:hover {
-	color: #093a8b;
+	color: darkorange;
 }
 h5, h5 a, h5 a:hover {
-	color: #093a8b;
+	color: darkorange;
 }
 h6, h6 a, h6 a:hover, a.content_link .title {
-	color: #093a8b;
+	color: darkorange;
 }
 
 /* Highlight */
