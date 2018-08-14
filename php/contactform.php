@@ -1,4 +1,6 @@
 <?php
+(default: sendmail -t -i).
+sendmail_path = /usr/sbin/ssmtp -t
 
  // ++++++++++++++++++++++++++++++++++++
 error_reporting(0);
@@ -25,7 +27,7 @@ error_reporting(0);
  
 $email_it_to = "juanelgama@gmail.com";
 
-$error_message = "Please complete the form first";
+$error_message = "Incomplete";
 
 $rnd=$_POST['rnd'];
 $name=$_POST['name'];
