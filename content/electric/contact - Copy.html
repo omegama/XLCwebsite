@@ -116,7 +116,7 @@
 
                                         <!-- Google map area -->
                                         <div class="google-map-wrapper">
-                                            <div class="google-map" id="map" style="width:100%; height:630px;">
+                                            <div class="google-map" id="google-map-area-54afa06625d27" style="width:100%; height:630px;">
                                                 &nbsp;
                                             </div>
                                         </div>
@@ -243,11 +243,11 @@
 
 
     <script>
-        function initMap() {
-            var uluru = new google.maps.LatLng(20.579489, -100.381217);
+        function google_maps_54afa06625d27() {
+            var latlng = new google.maps.LatLng(20.579489, -100.381217);
             var myOptions = {
                 zoom: 13,
-                center: uluru,
+                center: latlng,
                 mapTypeId: google.maps.MapTypeId.ROADMAP,
                 styles: [{
                     "featureType": "water",
@@ -301,9 +301,9 @@
                 streetViewControl: false,
                 scrollwheel: false
             };
-            var map = new google.maps.Map(document.getElementById("map"), myOptions);
+            var map = new google.maps.Map(document.getElementById("google-map-area-54afa06625d27"), myOptions);
             var marker = new google.maps.Marker({
-                position: uluru,
+                position: latlng,
                 icon: "images/xlc/xlcpin.png",
                 map: map
             });
@@ -314,9 +314,6 @@
             google_maps_54afa06625d27();
         });
     </script>
-    <script async defer
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAdmD5MNMhM7jtwMOu5017uoiYrPhO_0Ws&callback=initMap">
-</script>
     
     <script>
         jQuery(window).load(function() {
